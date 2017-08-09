@@ -17,6 +17,10 @@ package.
 
 The package compiles on Java 1.6-1.8.
 
+There is one modification against reference implementation. JSONObject preserves
+order of items.
+
+Unit tests can be found in separate project: https://github.com/hos-p/JSON-Java-unit-test
 
 JSONObject.java: The JSONObject can parse text from a String or a JSONTokener
 to produce a map-like object. The object provides methods for manipulating its
